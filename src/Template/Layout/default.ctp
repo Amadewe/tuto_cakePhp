@@ -28,6 +28,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('style.css') ?>
+    <?= $this->Html->css('https://kendo.cdn.telerik.com/2019.3.917/styles/kendo.common.min.css') ?>
+    <?= $this->Html->css('https://kendo.cdn.telerik.com/2019.3.917/styles/kendo.blueopal.min.css') ?> 
+    <?= $this->Html->css('https://kendo.cdn.telerik.com/2019.3.917/styles/kendo.blueopal.mobile.min.css') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -53,5 +56,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div>
     <footer>
     </footer>
+     <?= $this->Html->script('https://kendo.cdn.telerik.com/2019.3.917/js/jquery.min.js') ?>
+    <?= $this->Html->script('https://kendo.cdn.telerik.com/2019.3.917/js/kendo.all.min.js') ?>
+ <?= $this->Html->script('scriptGrid') ?>
 </body>
 </html>
